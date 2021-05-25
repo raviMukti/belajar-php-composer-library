@@ -1,0 +1,19 @@
+{
+    "name": "ravimukti/contoh-library-composer",
+    "description": "Belajar Membuat Library PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "raviMukti",
+            "email": "shinjiravi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RaviMukti\\Belajar\\": "src/"
+        }
+    }
+}
